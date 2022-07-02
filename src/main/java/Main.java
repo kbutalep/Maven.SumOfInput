@@ -10,9 +10,12 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("enter number");
         int userInput = input.nextInt();
-        int sum = (userInput)*(userInput+1)/2;
+        int sum = 0;
+        for(int i = 0; i <= userInput; i++){
+        sum = sum + i;}
         System.out.println((sum));
     }
 
     }
+//        int sum = (userInput)*(userInput+1)/2;
 
